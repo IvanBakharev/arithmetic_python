@@ -39,4 +39,14 @@ area = (s*(s - sideA)*(s - sideB)*(s - sideC)) ** 0.5
 print('The area of the triangle is %0.2f' %area)
 
 
+                                            # Площадь и периметр прямоугольника
+
+side_A = float(input("Введите сторону прямоугольника A: "))
+side_B = float(input("Введите сторону прямоугольника B: "))
+
+# Считаем периметр прямоугольника
+
+print("Периметр прямоугольника равен", sep="="), print((side_A * 2) + (side_B * 2))
+
+
 
