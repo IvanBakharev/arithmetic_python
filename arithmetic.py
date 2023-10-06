@@ -31,6 +31,7 @@ print((side_A * 2) + (side_B * 2))
 print("Площадь прямоугольника равна: ", sep="=")
 print(side_A * side_B)
 
+                                   # Задание второе
 
 number = int(input("Enter number:"))
 
